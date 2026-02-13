@@ -5,21 +5,20 @@ Lance @Godfather sur Telegram
 Run /newbot pour créer un bot et suis ce qu'il te dit.
 Tu vas générer un token "HTTP API" que tu ajouteras au script avant le 1er lancement
 
-###   Telecharge le .msi de Node.JS (https://nodejs.org/fr/download) 
+###   Télécharge le .msi de Node.JS (https://nodejs.org/fr/download) 
 Fais attention que la case "add to path" soit cochée
-Et installe les autres dépendances nécessaires 
-(chocolatey/python/npm..) en cochant la dernière case.
 
-###   Verifie que tout est bien installé dans ton cmd: 
+###   Vérifie avec cmd que tout est bien installé: 
 `node -v & npm -v`
 ###   Ca va t'afficher les versions que tu as:
-"v24.13.1"
-"11.10.0"
-
+"v24.13.1","11.10.0"
 ###   Va dans le dossier du script: 
 ###   (ou clic droit > ouvrir dans un terminal)
-`cd "C:\Users\coren\Downloads\script_du_bot" `
-### Telecharge les différentes API de Telegram:
+`cd "C:\Users\Shin\Downloads\script_du_bot" `
+#### Pour vérifier que tu es bien dans le bon dossier, utilise: 
+`dir` 
+#### Ca fonctionne comme `ls` sous Linux
+### Télécharge les différentes API de Telegram:
 `npm install node-telegram-bot-api`
 ###   Lance la commande indiquée pour màj npm:
 `npm install -g npm@11.10.0`
