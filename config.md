@@ -24,13 +24,13 @@ Et installe les autres dépendances nécessaires
 ###   Lance la commande indiquée pour màj npm:
 `npm install -g npm@11.10.0`
 ###   Rentre ton token généré par @GodFather dans les parenthèses de const token (dans le script)
-`const token = 'Token généré par GodFather ici';` (l.4)
+`const token = 'Token généré par GodFather ici';` (l.2)
 ###   Lance le bot avec son nom exact (que tu peux changer)
 `node DesktopTelPerso.js`
 ###   Le bot est lancé (msg de la cmd confirme)
 Bot démarré...
 ###   Dans la cmd après que tu aies envoyé le premier message via ton bot, il y aura un ChatId = 11111111 de généré
-Modifie alors la ligne "let ChatId = null;" (l.9) en remplacant null par le nombre donné.
+Modifie alors la ligne "let ChatId = null;" (l.4) en remplacant null par le nombre donné.
 ###   Ce faisant, tu relies directement ton bot à ton identifiant tg, ca rajoute de la sécurité.
 
 # Erreur possible 
