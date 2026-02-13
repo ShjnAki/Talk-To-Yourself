@@ -11,23 +11,23 @@ Et installe les autres dépendances nécessaires
 (chocolatey/python/npm..) en cochant la dernière case.
 
 ###   Verifie que tout est bien installé dans ton cmd: 
-node -v
-npm -v
+`node -v`
+`npm -v`
 ###   Ca va t'afficher les versions que tu as:
 "v24.13.1"
 "11.10.0"
 
 ###   Va dans le dossier du script: 
 ###   (ou clic droit > ouvrir dans un terminal)
-cd "C:\Users\coren\Downloads\script_du_bot" 
+`cd "C:\Users\coren\Downloads\script_du_bot" `
 ### Telecharge les différentes API de Telegram:
-npm install node-telegram-bot-api
+`npm install node-telegram-bot-api`
 ###   Lance la commande indiquée pour màj npm:
-npm install -g npm@11.10.0
+`npm install -g npm@11.10.0`
 ###   Rentre ton token généré par @GodFather dans les parenthèses de const token (dans le script)
-const token = 'Token généré par GodFather ici'; (l.4)
+`const token = 'Token généré par GodFather ici';` (l.4)
 ###   Lance le bot avec son nom exact (que tu peux changer)
-node DesktopTelPerso.js
+`node DesktopTelPerso.js`
 ###   Le bot est lancé (msg de la cmd confirme)
 Bot démarré...
 ###   Dans la cmd après que tu aies envoyé le premier message via ton bot, il y aura un ChatId = 11111111 de généré
@@ -43,7 +43,3 @@ Fais ctrl + c pour arrêter le bot.
 ####  Une fois configuré, tu n'as plus besoin de relancer le script pour utiliser le bot.
 ####  Je ferai la traduction en anglais plus tard.
 ####  Il s'agit de l'installation sous windows, les commandes peuvent varier suivant l'os.
-
-
-
-
